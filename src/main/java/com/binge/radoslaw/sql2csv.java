@@ -30,7 +30,7 @@ public class sql2csv {
 //            2. Create statement
             Statement statement = connection.createStatement();
 //            3. Execute SQL query
-            String sql = "select e.* from employees e where e.last_name like 'Bon%'";
+            String sql = "select e.* from employees e where e.last_name like 'Bondor%'";
             String presql = StringUtils.substringBefore(sql, "where");
             System.out.println(presql);
 
